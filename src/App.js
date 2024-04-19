@@ -288,7 +288,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='ml-20 mt-4 px-4 pt-3 pb-4'>
+      <div className='ml-32 mt-4 px-4 pt-3 pb-4'>
         <pre>{generateJSON()}</pre>
       </div>
     </div>
