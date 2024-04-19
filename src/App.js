@@ -203,7 +203,7 @@ function App() {
               <p className="p-2">Url Task</p>
             </div>
             <div className="col-span-1 ">
-              <p className="p-2">Status Task</p>
+              <p className="p-2">Alasan Terlambat</p>
             </div>
             <div className="col-span-1 flex items-center justify-center">
               <button onClick={() => handleAddInputColumn('taskTerlambat')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
@@ -248,8 +248,17 @@ function App() {
             ))}
           </div>
         </div>
+        <div>
+          <button className="mt-4 mr-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+            Cancel
+          </button>
+          <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Submit
+          </button>
+        </div>
       </div>
     </div>
+    
   );
 }
 
